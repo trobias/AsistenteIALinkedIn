@@ -59,24 +59,22 @@ Make sure to install all dependencies with the following command:
 
 ```bash
 pip install -r requirements.txt
+
 Installation 🔧
 Clone this repository:
-bash
-Copiar código
 git clone https://github.com/your-username/hr-assistant.git
+
 Install the dependencies:
-bash
-Copiar código
 pip install -r requirements.txt
+
 Run the application:
-bash
-Copiar código
 streamlit run app.py
+
 Main Files 📂
 app.py: Main file managing the Streamlit user interface.
 requirements.txt: Contains all dependencies needed for the project.
-config.py: Manages configurations, including API keys.
-faiss_index.py: Contains logic for data indexing with FAISS.
+env. Manages configurations, including API keys.
+
 Contributions 🤝
 If you want to contribute to this project, please follow these steps:
 
@@ -85,6 +83,7 @@ Create a new branch (git checkout -b feature/new-feature).
 Make your changes and commit them (git commit -am 'Add new feature').
 Push to the branch (git push origin feature/new-feature).
 Open a Pull Request.
+
 License 📄
 This project is licensed under the MIT License. For more details, see the LICENSE file.
 
