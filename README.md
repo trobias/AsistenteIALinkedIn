@@ -36,7 +36,10 @@ Suscribirse a el, es una API gratuita https://rapidapi.com/rockapis-rockapis-def
 
 - **Embeddings**: `embed-multilingual-v3.0` de **Cohere**.
 - **MML**: `command-xlarge-nightly` de **Cohere**.
-- **API**: **RapidAPI** (para integrar LinkedIn).
+- **API**: **RapidAPI** Real-Time LinkedIn Scraper API
+https://rapidapi.com/rockapis-rockapis-default/api/linkedin-data-api
+ (para integrar LinkedIn).
+
 
 ## Descripción del Código 👨‍💻
 
