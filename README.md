@@ -1,6 +1,7 @@
 # Asistente Conversacional de Recursos Humanos 🤖💼
 
 Este proyecto tiene como objetivo desarrollar un **Asistente Conversacional** que responde consultas sobre recursos humanos utilizando datos en tiempo real obtenidos de la **API de LinkedIn**. El sistema implementa un enfoque de **Generación Aumentada por Recuperación (RAG)** utilizando **Cohere** y **FAISS** para mejorar la precisión y relevancia de las respuestas. 🌐
+Este proyecto fue desarollado para poder aprobar el curso de IA y Desarrollo de Asistentes Conversacionales del Silicon Misiones con el Profesor Daniel Vallejos
 
 ## Tecnologías y Herramientas Utilizadas 🛠️
 
