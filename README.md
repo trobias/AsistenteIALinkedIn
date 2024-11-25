@@ -55,7 +55,7 @@ Este proyecto tiene como objetivo desarrollar un **Asistente Conversacional** qu
 
 Instalación 🔧
 Clona este repositorio:
-git clone https://github.com/tu-usuario/asistente-recursos-humanos.git
+git clone https://github.com/trobias/AsistenteIALinkedIn
 
 Instala las dependencias:
 pip install -r requirements.txt
