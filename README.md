@@ -1,7 +1,8 @@
 # Asistente Conversacional de Recursos Humanos 🤖💼
 
 Este proyecto tiene como objetivo desarrollar un **Asistente Conversacional** que responde consultas sobre recursos humanos utilizando datos en tiempo real obtenidos de la **API de LinkedIn**. El sistema implementa un enfoque de **Generación Aumentada por Recuperación (RAG)** utilizando **Cohere** y **FAISS** para mejorar la precisión y relevancia de las respuestas. 🌐
-Este proyecto fue desarollado para poder aprobar el curso de IA y Desarrollo de Asistentes Conversacionales del Silicon Misiones con el Profesor Daniel Vallejos
+
+Este proyecto fue desarollado para poder aprender y aprobar el curso de IA y Desarrollo de Asistentes Conversacionales del Silicon Misiones con el Profesor Daniel Vallejos
 
 ![image](https://github.com/user-attachments/assets/c5e1937e-315a-4daf-a279-c77e11b5250d)
 
@@ -10,6 +11,7 @@ Este proyecto fue desarollado para poder aprobar el curso de IA y Desarrollo de 
 - **LangChain**: Para la lógica de procesamiento de consultas e integración con Cohere (embeddings) y FAISS (motor de búsqueda semántica).
 - **Streamlit**: Para crear una interfaz de usuario interactiva y amigable.
 - **API de LinkedIn (RapidAPI)**: Para obtener datos en tiempo real sobre personas, empleos y empresas.
+Suscribirse a el, es una API gratuita https://rapidapi.com/rockapis-rockapis-default/api/linkedin-data-api - RockApi
 - **FAISS**: Para realizar búsquedas semánticas dentro de la base de conocimiento.
 
 ## Funcionalidades Clave 🚀
