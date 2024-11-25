@@ -11,7 +11,7 @@ Este proyecto fue desarollado para poder aprender y aprobar el curso de IA y Des
 - **LangChain**: Para la lógica de procesamiento de consultas e integración con Cohere (embeddings) y FAISS (motor de búsqueda semántica).
 - **Streamlit**: Para crear una interfaz de usuario interactiva y amigable.
 - **API de LinkedIn (RapidAPI)**: Para obtener datos en tiempo real sobre personas, empleos y empresas.
-Suscribirse a el, es una API gratuita https://rapidapi.com/rockapis-rockapis-default/api/linkedin-data-api - RockApi
+Suscribirse a el, es una API gratuita https://rapidapi.com/rockapis-rockapis-default/api/linkedin-data-api - Hecho por RockApi
 - **FAISS**: Para realizar búsquedas semánticas dentro de la base de conocimiento.
 
 ## Funcionalidades Clave 🚀
@@ -68,8 +68,19 @@ git clone https://github.com/trobias/AsistenteIALinkedIn
 Instala las dependencias:
 pip install -r requirements.txt
 
+
+Configura las variables de entorno:
+Crea un archivo .env en el directorio raíz del proyecto.
+Añade las siguientes claves API:
+Registrate en RAPIDAPI, suscribete gratis a la API: https://rapidapi.com/rockapis-rockapis-default/api/linkedin-data-api y luego coloca tu apikey:
+RAPIDAPI_KEY="tu_clave_api"
+Registrate en COHERE y coloca tu APIKEY:
+COHERE_API_KEY="tu_clave_api_de_Cohere"
+
 Ejecuta la aplicación:
 streamlit run LinkedInIARAGTarnowski.py
+
+y ya...
 
 Archivos Principales 📂
 LinkedInIARAGTarnowski.py: Archivo principal que gestiona la interfaz de usuario de Streamlit.
