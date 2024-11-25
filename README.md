@@ -61,12 +61,12 @@ Instala las dependencias:
 pip install -r requirements.txt
 
 Ejecuta la aplicación:
-streamlit run app.py
+streamlit run LinkedInIARAGTarnowski.py
 
 Archivos Principales 📂
-app.py: Archivo principal que gestiona la interfaz de usuario de Streamlit.
+LinkedInIARAGTarnowski.py: Archivo principal que gestiona la interfaz de usuario de Streamlit.
 requirements.txt: Contiene todas las dependencias necesarias para ejecutar el proyecto.
-env.py: Gestiona las configuraciones, incluidas las claves API.
+env. Gestiona las configuraciones, incluidas las claves API.
 
 Contribuciones 🤝
 Si deseas contribuir a este proyecto, por favor, sigue estos pasos:
