@@ -82,19 +82,6 @@ RAPIDAPI_KEY="tu_clave_api"
 Registrate en COHERE y coloca tu APIKEY:
 COHERE_API_KEY="tu_clave_api_de_Cohere"
 
-finalmente el directorio deberia quedar algo tal que asi:
-nuevo_entorno/
-├── .env
-├── LinkedInIARAGTarnowski.py
-├── requirements.txt
-└── venv/
-    ├── etc/
-    ├── Include/
-    ├── Lib/
-    ├── Scripts/
-    ├── share/
-    └── pyvenv.cfg
-
 6_ Ejecuta la aplicación:
 streamlit run LinkedInIARAGTarnowski.py
 
