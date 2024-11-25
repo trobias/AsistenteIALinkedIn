@@ -1,0 +1,29 @@
+streamlit==1.18.0
+# pip install streamlit==1.18.0
+
+langchain==0.16.0
+# pip install langchain==0.16.0
+
+cohere==4.3.0
+# pip install cohere==4.3.0
+
+faiss-cpu==1.7.2
+# pip install faiss-cpu==1.7.2
+
+requests==2.28.1
+# pip install requests==2.28.1
+
+python-dotenv==1.0.0
+# pip install python-dotenv==1.0.0
+
+openai==0.27.0
+# pip install openai==0.27.0
+
+- RAPIDAPIKEY:
+Subscribe to this API FREE
+https://rapidapi.com/rockapis-rockapis-default/api/linkedin-data-api
+
+- COHEREAPIKEY:
+ChatCohere (command-xlarge-nightly)
+CohereEmbeddings (embed-multilingual-v3.0)
+
