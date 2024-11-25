@@ -55,30 +55,27 @@ Este proyecto tiene como objetivo desarrollar un **Asistente Conversacional** qu
 
 Instalación 🔧
 Clona este repositorio:
-bash
-Copiar código
 git clone https://github.com/tu-usuario/asistente-recursos-humanos.git
+
 Instala las dependencias:
-bash
-Copiar código
 pip install -r requirements.txt
+
 Ejecuta la aplicación:
-bash
-Copiar código
 streamlit run app.py
+
 Archivos Principales 📂
 app.py: Archivo principal que gestiona la interfaz de usuario de Streamlit.
 requirements.txt: Contiene todas las dependencias necesarias para ejecutar el proyecto.
-config.py: Gestiona las configuraciones, incluidas las claves API.
-faiss_index.py: Contiene la lógica para la indexación de datos con FAISS.
+env.py: Gestiona las configuraciones, incluidas las claves API.
+
 Contribuciones 🤝
 Si deseas contribuir a este proyecto, por favor, sigue estos pasos:
-
 Fork este repositorio.
 Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
 Realiza tus cambios y haz un commit (git commit -am 'Añadir nueva funcionalidad').
 Push a la rama (git push origin feature/nueva-funcionalidad).
 Abre un Pull Request.
+
 Licencia 📄
 Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
 
