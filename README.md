@@ -61,23 +61,28 @@ https://rapidapi.com/rockapis-rockapis-default/api/linkedin-data-api
 - Uso de **st.session_state** en **Streamlit** para almacenar el historial de la conversación.
 - **InMemoryChatMessageHistory**: Gestión avanzada del historial con LangChain.
 
-Instalación 🔧
-Clona este repositorio:
+### Instalación 🔧
+1_ Clona o descarga este repositorio:
 git clone https://github.com/trobias/AsistenteIALinkedIn
 
-Instala las dependencias:
+2_ Crea tu Entorno Virtual con python -m venv venv desde la terminal.
+
+3_ Desde la misma terminal entra a venv/Scripts y ejecuta activate, esto activará el entorno.
+
+4_ Instala las dependencias:
 pip install -r requirements.txt
 
-
-Configura las variables de entorno:
+5_ Configura las variables de entorno:
 Crea un archivo .env en el directorio raíz del proyecto.
 Añade las siguientes claves API:
+
 Registrate en RAPIDAPI, suscribete gratis a la API: https://rapidapi.com/rockapis-rockapis-default/api/linkedin-data-api y luego coloca tu apikey:
 RAPIDAPI_KEY="tu_clave_api"
+
 Registrate en COHERE y coloca tu APIKEY:
 COHERE_API_KEY="tu_clave_api_de_Cohere"
 
-Ejecuta la aplicación:
+6_ Ejecuta la aplicación:
 streamlit run LinkedInIARAGTarnowski.py
 
 y ya...
