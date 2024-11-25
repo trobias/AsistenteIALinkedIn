@@ -104,9 +104,9 @@ def display_help():
     st.markdown("""
     ### ¿Qué puedes buscar aquí?
     - **Personas**: Busca por palabras clave, nombre, ubicación o experiencia.
-      - Ejemplo: "Busco un Senior Developer con 5 años de experiencia en Python"
+      - Ejemplo: "Busca un Senior Developer con 5 años de experiencia en Python"
     - **Trabajos**: Especifica títulos, ubicación y experiencia deseada.
-      - Ejemplo: "Busco un Trabajo remoto en desarrollo de software con salario > 60k"
+      - Ejemplo: "Busca un Trabajo remoto en desarrollo de software con salario > 60k"
     """)
 
 def initialize_chat():
@@ -176,8 +176,7 @@ def main():
                         response = search_people(keywords=user_input)
                     elif "Intención: Trabajos" in action:
                         response = search_jobs(keywords=user_input)
-                    else:
-                        return
+
 
 
             # Si se ejecutó una de las funciones, procesar la respuesta en formato JSON
